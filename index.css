@@ -1,0 +1,92 @@
+.Header1div, .Header1, .Header1right{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: "Castoro Titling", serif;
+    align-items: center;
+} /*.Header1 is the "Santos Latinos text" .header1div is the whole div and .header1right is the mini-text.*/
+.Header1{ 
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(255, 215, 0);
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Header1div{
+    background-color: rgb(95, 141, 240);
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+    gap: 40px;
+    border: solid;
+    border-color: rgb(171, 202, 238);
+    border-width: 1px;
+    display: flex;
+}
+.Header1right{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    flex: 1;
+
+}
+.foto-santo-titulo{
+    width: auto;
+    height: 151px;
+
+}
+.subheader{
+    font-size: 18px;
+    line-height: 1.5;
+    color: rgb(2, 2, 2);
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.subheaderdiv{
+    display: block;
+    background-color: #fdcece;
+    height: 140px;
+    margin-top: 30px;
+}
+.mapaMXoption{
+    width: auto;
+    height: 120px;
+    flex: 1;
+}
+.mexicoOptiondiv{
+    display: flex;
+    background-color: rgb(227, 227, 227);
+    height: 270px;
+    flex-direction: column;
+    border: solid;
+    width: 220px;
+    text-align: top;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 8px;
+    border-color: rgb(227, 227, 227);
+    color: black;
+}
+.mexicoOptiondiv:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+a{
+    text-decoration: none;
+}
+.titlemex-option{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(39, 10, 10);
+}
+.caption-mexico{
+    background-color: rgba(243, 240, 240, 0.63);
+    display: inline-block;
+    width: 223px;
+    height: 40px;
+    text-align: center;
+}
